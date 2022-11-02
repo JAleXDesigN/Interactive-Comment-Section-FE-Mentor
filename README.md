@@ -48,7 +48,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Go solution :arrow_right:](https://your-solution-url.com)
+- Solution URL: [Go solution :arrow_right:](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9/hub/interactive-comment-section-with-react-js-and-firebase-7z6I8issqL)
 - Live Site URL: [Go :earth_americas:](https://commentsection-jalex.web.app)
 
 ## My process
