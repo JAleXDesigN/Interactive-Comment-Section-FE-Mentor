@@ -1,0 +1,118 @@
+:root {
+  --moderateBlue: #5457b6;
+  --moderateBlue2: #6a6ed6;
+  --softRed: #ed6468;
+  --softRed2: #f18e91;
+  --lightGBlue: hsl(239, 57%, 85%);
+  --lightGBlue2: hsl(238, 54%, 90%);
+  --paleRed: hsl(357, 100%, 86%);
+  --paleRed2: hsl(357, 72%, 89%);
+  --darkBlue: hsl(212, 24%, 26%);
+  --darkBlue2: hsl(214, 20%, 22%);
+  --grayBlue: hsl(211, 10%, 45%);
+  --grayBlueLight: hsl(213, 10%, 62%);
+  --grayBlueLight2: rgb(196, 205, 216);
+  --lightGray2: hsl(223, 19%, 91%);
+  --lightGray: hsl(223, 19%, 93%);
+  --veryLGray: hsl(228, 33%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  --bg: var(--veryLGray);
+  --bgCard: var(--white);
+  --text1: var(--darkBlue);
+  --text2: var(--grayBlue);
+  --btnBlue: var(--moderateBlue);
+  --btnBlueHov: var(--lightGBlue);
+  --btnRed: var(--softRed);
+  --btnRedHov: var(--paleRed);
+  --btnGray: var(--grayBlue);
+  --btnGrayHov: var(--grayBlueLight);
+  --votes: var(--lightGray);
+  --addVote: var(--lightGBlue);
+  --addVoteHov: var(--moderateBlue);
+  --numVotes: var(--moderateBlue);
+  --lineReplies: var(--lightGray2);
+  --textAreaBorder: var(--darkBlue);
+  --boxShadow: rgba(119, 119, 119, 0.9);
+  --btnSubmitHov: var(--lightGBlue);
+  --btnCancelHov: var(--paleRed);
+  --adminTag: rgb(154, 218, 255);
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  background-color: var(--bg);
+  position: relative;
+}
+
+body.dark-true {
+  --bg: var(--darkBlue);
+  --bgCard: var(--darkBlue2);
+  --text1: var(--white);
+  --text2: var(--lightGray);
+  --btnBlue: var(--lightGBlue);
+  --btnBlueHov: var(--lightGBlue2);
+  --btnRed: var(--paleRed);
+  --btnRedHov: var(--paleRed2);
+  --btnGray: var(--grayBlueLight);
+  --btnGrayHov: var(--grayBlueLight2);
+  --votes: var(--darkBlue);
+  --addVote: var(--lightGBlue);
+  --addVoteHov: var(--lightGBlue2);
+  --numVotes: var(--lightGray);
+  --lineReplies: var(--grayBlueLight);
+  --textAreaBorder: var(--grayBlueLight);
+  --boxShadow: rgba(255, 255, 255, 0.151);
+  background-color: var(--bg);
+  --btnSubmitHov: var(--moderateBlue2);
+  --btnCancelHov: var(--softRed2);
+  --adminTag: rgb(0, 153, 128);
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:hover,
+label:hover {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+textarea {
+  overflow: hidden;
+}
